@@ -1,0 +1,68 @@
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div {
+    background: #f7d7d7;
+    padding: 2.4rem 5rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: all 400ms ease;
+}
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: pink;
+    cursor: default;
+}
+
+.experience__icon {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.experience__title {
+    justify-content: center;
+    margin-top: 0.7rem;
+    display: flex;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience__icons {
+    margin-top: 7px;
+    margin-right: 6px;
+}
+
+/*Media queries*/
+@media screen and (max-width: 1024px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+  }
