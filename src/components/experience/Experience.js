@@ -26,7 +26,6 @@ const Experience = () => {
             <article className="experience__details">
               <p className="text-light">Proud owner of The Dumb Duad - youtube channel with over 100k subscriber count. </p>
             </article>
-            <h2>Visit</h2>
           </div>
         </div>
         <div className="experience__xeel">
