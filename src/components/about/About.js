@@ -40,7 +40,7 @@ const About = () => {
                     </article>
                 </div>
                 <p>
-                    A 22yr old Journalism Student graduated from Delhi University and a part-time youtuber aspiring to become a Media professional. Always eager to learn new skills and experience the valley of new age Media. 
+                    A 22yr old Journalism Student graduated from Delhi University, a part-time youtuber and currently making my mark as an emerging event management enthusiast. Always eager to learn new skills around social media whilst parallely experiencing the valley of Event Planning. 
                 </p>
                     <a href='#contact' className='btn'>Let's Talk</a>
             </div>
