@@ -24,7 +24,7 @@ const About = () => {
                     <article className='about__card'>
                         <FaAward className='about__icon' />
                         <h5>Experience</h5>
-                        <small>1+ years working in Media and Event industry</small>
+                        <small>2+ years working in Media and Event industry</small>
                     </article>
 
                     <article className='about__card'>
@@ -40,7 +40,7 @@ const About = () => {
                     </article>
                 </div>
                 <p>
-                    A 21yr old Journalism Student graduated from Delhi University and a part-time youtuber aspiring to become a Media professional. Always eager to learn new skills and experience the valley of new age Media. 
+                    A 22yr old Journalism Student graduated from Delhi University and a part-time youtuber aspiring to become a Media professional. Always eager to learn new skills and experience the valley of new age Media. 
                 </p>
                     <a href='#contact' className='btn'>Let's Talk</a>
             </div>
